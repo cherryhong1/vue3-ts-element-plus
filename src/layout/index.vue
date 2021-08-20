@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-container>
-      <el-header>
+      <el-header class="flex-row-between">
         <Nav></Nav>
         <Settings></Settings>
       </el-header>

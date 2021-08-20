@@ -1,23 +1,21 @@
 <template>
   <div>
-    <el-header>
-      <header>header</header>
-    </el-header>
+   header
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  setup () {
-    
-
-    return {}
-  }
-})
+  setup() {
+    return {};
+  },
+});
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+  .header{
+    height: 80px
+  }
 </style>
