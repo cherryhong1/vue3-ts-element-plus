@@ -2,6 +2,7 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
+    <el-row><el-button type="primary">默认按钮</el-button></el-row>
   </div>
   <router-view />
 </template>
