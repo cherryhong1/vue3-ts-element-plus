@@ -20,6 +20,13 @@ const routes: Array<RouteRecordRaw> = [
     path: "/layout",
     name: "Layout",
     component: () => import("../layout/index.vue"),
+    children: [
+      {
+        path: 'index',
+        name: 'Index',
+        component: () => import('../views/index.vue')
+      }
+    ]
   },
 ];
 
